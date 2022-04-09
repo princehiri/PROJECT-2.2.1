@@ -1,5 +1,5 @@
 <?php
-   $conn = mysqli_connect('localhost', 'root', '', 'database');
+   $conn = mysqli_connect('sql108.epizy.com', 'epiz_31480724', 'Iw45aDiaKYu1YsV', 'epiz_31480724_database');
 
    if (mysqli_connect_error()){
        echo "<script> alert('Connection error');  </script>";
